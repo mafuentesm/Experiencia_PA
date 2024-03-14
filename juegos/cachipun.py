@@ -20,7 +20,6 @@ def cachipun():
         mensaje = 'Yeii, ganaste!!'
     elif eleccompu == 'papel' and elecusu == 'piedra':
         mensaje = 'Nooo, perdiste:('
-    return mensaje
-    pass
+    return print(mensaje)
 
-print(cachipun())
+cachipun()
