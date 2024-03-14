@@ -10,3 +10,4 @@ def memoria():
         print("Erroneo :(")
     pass
 
+memoria()
