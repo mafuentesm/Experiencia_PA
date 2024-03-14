@@ -1,8 +1,14 @@
+import random
 def juego_del_dado():
-    """
-    Esta función tiene que pedirle al usuario que aprete enter para que lance un dado.
-    Esto genera un número al azar que se le suma a la puntuación del usuario.
-    Después el computador también tiene que lanzar un dado.
-    El primero en sumar 30 puntos gana.
-    """
+    puntusu = 0
+    puntcompu = 0
+    while puntusu <= 30 and puntcomp <= 30:
+        print('Presiona enter para lanzar el dado')
+        num1 = random.randint(1,6)
+        puntusua += num1
+        num2 = random.randint(1,6)
+        puntcomp += num2
+        if puntusu >= 30 or puntcompu >= 30:
+            break
+
     pass
